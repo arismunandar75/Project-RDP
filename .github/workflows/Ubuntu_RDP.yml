@@ -3,6 +3,12 @@ name: Ubuntu SSH
 on: 
   workflow_dispatch:
     inputs:
+      code:
+        description: 'Visit http://remotedesktop.google.com/headless and copy the command after Authentication'
+        required: true
+      pin:
+        description: 'Enter a Pin (more or equal to 6 digits)'
+        required: true
       authtoken:
         description: 'NGROK AUTH TOKEN'
         required: true
