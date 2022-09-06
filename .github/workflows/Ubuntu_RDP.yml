@@ -3,7 +3,7 @@ name: Ubuntu SSH
 on: 
   workflow_dispatch:
     inputs:
-      code:
+      authuncationcode:
         description: 'Visit http://remotedesktop.google.com/headless and copy the command after Authentication'
         required: true
       pin:
